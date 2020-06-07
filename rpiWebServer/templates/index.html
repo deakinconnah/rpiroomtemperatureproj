@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+   <title>{{ title }}</title>
+</head>
+<body>
+   <h1>{{ title }}</h1>
+   <h2>Time of latest update: {{ time }}</h2>
+   <h2>Room Temperature: {{ temperature}}C	Room Humidity: {{ humidity }}%</h2>
+   <img src="{{ imgname }}" alt="plot" width="450"></img>
+   <br></br>
+   <form method="get" action="/dataset">
+   <button type="submit">Data History</button>
+   </form>
+
+</body>
+</html>
